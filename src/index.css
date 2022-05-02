@@ -1,0 +1,40 @@
+.wrapper {
+	display: flex;
+	
+}
+.box {
+	display: flex;
+	flex-direction: column;
+	max-width: 20em;
+	margin: 0px 100px 0px 0px;
+	background: rgb(66, 125, 214);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.name {
+	margin: 0 0 20px 0;
+}
+
+
+.msg {
+	margin: 0 0 20px 0;
+}
+
+.message-list {
+	display: flex;	
+	flex-direction: column;
+	background: rgba(66, 125, 214);
+	width: 20em;
+	height: 10em;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 0 20px 0 0;
+	flex-wrap: wrap;
+}
+
+.text {
+	width: 17em;
+	height: 7em;
+	overflow: auto;
+}
